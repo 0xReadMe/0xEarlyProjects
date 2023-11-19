@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "laW9fX2fhbxRningTvc53TPl1UuTZbkYiYJsC8nALb4jq4cTAL2a6HjcieihG1o1SUlYIDR5cAKxFlZEME+sRA==",
+  "success": true,
+  "projectFilePath": "C:\\ПРОГРАММЫ САМОПИС РАЗОБРАТЬ\\C#-Strelka-CLI\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\8-bit\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\8-bit\\.nuget\\packages\\selenium.webdriver\\4.6.0\\selenium.webdriver.4.6.0.nupkg.sha512",
+    "C:\\Users\\8-bit\\.nuget\\packages\\selenium.webdriver.chromedriver\\107.0.5304.6200\\selenium.webdriver.chromedriver.107.0.5304.6200.nupkg.sha512",
+    "C:\\Users\\8-bit\\.nuget\\packages\\selenium.webdriver.geckodriver\\0.32.0\\selenium.webdriver.geckodriver.0.32.0.nupkg.sha512",
+    "C:\\Users\\8-bit\\.nuget\\packages\\selenium.webdriver.iedriver\\4.6.0\\selenium.webdriver.iedriver.4.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}
