@@ -1,0 +1,160 @@
+/* Подключение шрифтов */
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.5; /* Междустрочный интервал */
+
+    /* Градиент */
+    background: radial-gradient(circle closest-side, rgb(36, 41, 46) 25%, rgba(23,26,29,1) 64%);
+}
+
+/* Оформление ссылок */
+a:link { 
+    /* Непосещённая */
+    color: rgb(251, 0, 0);
+    margin: 4px;
+    display: inline-block;
+	text-decoration: none;
+	border-radius: 4px;
+	box-shadow: 5px 4px 4px rgb(172, 158, 83);
+	background: rgb(218, 200, 102);
+}
+
+a:visited{
+    /* Посещённая */
+    color: brown;
+}
+
+a:hover { 
+    /* Не нажатая (удерживание мыши на ссылке без клика) */
+    background: rgb(218, 200, 102);
+    cursor: pointer; /* Замена указателя мыши на руку */
+}
+
+a:active { 
+    /* Нажатая (удерживание мыши на ссылке с кликом) */
+    position: relative;
+	top: 3px;
+    left: 3px;
+	box-shadow: 2px 2px 2px rgb(172, 158, 83);
+	background: rgb(218, 200, 102);
+}
+/* Оформление ссылок */
+
+/* Заголовки */
+header {
+    height: 100vh;
+    background-color: #eee;
+    background-image: url("./images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+/* Дополнительный слой для эффекта прозрачности */
+.overlay {
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.header-title-1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: 100;  
+
+    /* Градиент */
+    background: linear-gradient(to bottom, rgb(31, 146, 253), rgb(253, 14, 54));
+    -webkit-background-clip: text; /* Используем -webkit- для совместимости с некоторыми браузерами */
+    -webkit-text-fill-color: transparent; /* Делаем текст прозрачным и заполняем его цветом фона */
+}
+
+.header-title-2 {
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 100;
+
+    /* Градиент */
+    background: linear-gradient(to top, rgb(31, 146, 253), rgb(253, 14, 54));
+    -webkit-background-clip: text; /* Используем -webkit- для совместимости с некоторыми браузерами */
+    -webkit-text-fill-color: transparent; /* Делаем текст прозрачным и заполняем его цветом фона */
+}
+/* Заголовки */
+
+/* Освной контент страницы */
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    width: 790px;
+    font-size: 0;
+    margin: 70px auto 20px;
+}
+
+.card {
+    width: 350px;
+    margin-bottom: 40px;
+    margin-right: 80px;
+    padding: 45px 45px 55px;
+    box-shadow: 4px 4px 4px 5px rgb(218, 200, 102);
+}
+
+.card-image{
+    width: 100%;
+    transition: 1s; /* Время эффекта */
+}
+.card-image:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+   }
+
+.card-title{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+
+    background: linear-gradient(0deg, rgb(209, 178, 1) 4%, rgba(255,76,188,1) 99%);
+    -webkit-background-clip: text; /* Используем -webkit- для совместимости с некоторыми браузерами */
+    -webkit-text-fill-color: transparent; /* Делаем текст прозрачным и заполняем его цветом фона */
+}
+
+.card-text{
+    font-size: 15px;
+    color: rgba(255,255,255,1);
+    text-align: left;
+}
+/* Освной контент страницы */
+
+/* "Подвал" сайта */
+.footer{
+    display: flex;
+    height: 10vh;
+
+    /* Градиент */
+    background: rgb(3,2,0);
+    background: radial-gradient(circle, rgba(3,2,0,1) 87%, rgba(52,30,0,1) 100%);
+}
+  
+.footer-author{
+    font-family: 'Kaushan Script', cursive;
+    margin: auto;
+    font-size: 24px;
+
+    /* Градиент */
+    background: linear-gradient(to top, rgb(31, 146, 253), rgb(253, 14, 54));
+    -webkit-background-clip: text; /* Используем -webkit- для совместимости с некоторыми браузерами */
+    -webkit-text-fill-color: transparent; /* Делаем текст прозрачным и заполняем его цветом фона */
+}
+/* "Подвал" сайта */
